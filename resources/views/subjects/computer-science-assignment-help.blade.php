@@ -118,6 +118,7 @@
     </div>
     
 </section>
+
 <!-- <section class="admission-section py-2" style="background-image: url(images/background/pattern-9.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="color-circle"></div>
     <div class="auto-container">
@@ -197,6 +198,7 @@
         </div>
     </div>
 </section>
+
 <section class="featured-section py-3" style="background-image: url(images/background/1.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="auto-container">
         <div class="sec-title-three my-2">
@@ -380,6 +382,7 @@
     
     </script>
 </section>
+
 <section class="faq-section pt-3">
     <div class="auto-container">
         <div class="row clearfix">

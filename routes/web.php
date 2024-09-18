@@ -46,11 +46,130 @@ Route::prefix('/')->group(function () {
         ];
         return view('subjects.computer-science-assignment-help', ['data' => $data]);
     });
+           //03-09-24 dbms by navneet
+           Route::get('/database-managment-assignment-help', function () {
+            $data = [            
+                'title' => 'Letslearn',
+                'description' => 'Letslearn',
+                'keyword' => '',
+            ];
+            return view('subjects.database-managment-assignment-help ', ['data' => $data]);
+        });
 
-    Route::get('/myProfile', function () {
+          //03-09-24 Human-Computer Interaction Assignment Writing Help by navneet
+               Route::get('/human-computer-interaction-assignment-help', function () {
+            $data = [            
+                'title' => 'Letslearn',
+                'description' => 'Letslearn',
+                'keyword' => '',
+            ];
+            return view('subjects.human-computer-interaction-assignment-help ', ['data' => $data]);
+        });
+
+         //03-09-24 Information Technology Assignment Help by navneet
+            Route::get('/information-technology-assignment-help',function(){
+                $data =[
+                    'title'=>'Letslearn',
+                    'description'=> 'Letslearn',
+                    'keyword'=> ''
+                ];
+                return view('subjects.information-technology.information-technology-assignment-help',['data'=>$data]);
+            });
+
+         //03-09-24 Artificial Intelligence Assignment Writing Help by navneet 
+          Route::get('/artificial-intelligence-assigment-help' ,function(){
+            $data =[
+                'title'=>'Letslearn',
+                'description'=> 'Letslearn',
+                'keyword'=> ''
+            ];
+            return view('subjects.information-technology.artificial-intelligence-assigment-help',['data'=>$data]);
+        });
+
+        // 04-09-24 Machine Learning Assignment Writing Help by navneet
+        Route::get('/machine-learning-assignment-writing-help' ,function(){
+            $data =[
+                'title'=>'Letslearn',
+                'description'=> 'Letslearn',
+                'keyword'=> ''
+            ];
+            return view('subjects.information-technology.machine-learning-assignment-writing-help',['data'=>$data]);
+        });
+   
+        // 05-09-24 Software Engineering Assignment Writing Help  by navneet
+        Route::get('/software-engineering-assignment-writing-help' ,function(){
+            $data =[
+                'title'=>'Letslearn',
+                'description'=> 'Letslearn',
+                'keyword'=> ''
+            ];
+            return view('subjects.information-technology.software-engineering-assignment-writing-help',['data'=>$data]);
+        });
+           
+         // 06-09-24  Nursing Assignment Help by navneet
+         Route::get('/nursing-assignment-writing-help',function(){
+            $data=[
+                'title'=> 'Letslearn',
+                'description'=> 'Letslearn',
+                'keyword'=>''
+            ];
+            return view ('subjects.nursing-assignment-help.nursing-assignment-writing-help',['data'=>$data]);
+         });
+
+         /// 06-09-24 Pharmacology Assignment Writing Help by navneet
+         Route::get('/pharmacology-assignment-writing-help',function(){
+            $data=[
+                'title'=>'Letslearn',
+                'description'=>'Letslearn',
+                'keyword'=>''
+            ];
+            return view ('subjects.nursing-assignment-help.pharmacology-assignment-writing-help',['data'=>$data]);
+         });
+          
+
+         ///   10-09-24 Medical Assignment Writing Help by navneet
+         Route::get('/medical-assignment-writing-help', function(){
+           $data=[
+            'title'=>'Letslearn',
+            'description'=>'Letslearn',
+            'keyword'=>''
+           ];
+           return view ('subjects.nursing-assignment-help.medical-assignment-writing-help',['data'=>$data]);
+
+         });
+
+         /// 11-09-24 Mental Health Assignment Writing Help by navneet
+          Route::get('/mental-health-assignment-writing-help', function(){
+            $data=[
+                'title'=>'Letslearn',
+                'description'=> 'Letslearn',
+                'keyword'=>''
+            ];
+            return view ('subjects.nursing-assignment-help.mental-health-assignment-writing-help',['data'=>$data]);
+          });
+              
+                /// 12/09/24 Nutrition and Dietetics Assignment Writing Help by navneet
+          Route::get('/nutrition-and-dietetics-assignment-writing-help', function(){
+            $data=[
+               'title'=>'Letslearn',
+               'description'=> 'Letslearn',
+               'keyword'=>''
+          ];
+        return view ('subjects.nursing-assignment-help.nutrition-and-dietetics-assignment-writing-help',['data'=>$data]);
+       });   
+       
+         /// 18/09/24 Critical Care Assignment Writing Help by navneet
+          
+ 
+
+
+
+            Route::get('/myProfile', function () {
        
         return view('user.myProfile');
     });
+
+  
     
     Route::get('/about', function () {
         $data = [
